@@ -27,11 +27,9 @@ public class HomeActivity extends AppCompatActivity {
         tvContactNumber = (TextView) findViewById(R.id.contactNumberTextView);
 
         showUserData();
-
     }
 
     public void showUserData(){
-
         //receiving the class object from the LoginActivity
         user = (User) getIntent().getSerializableExtra("userDetails");
 
@@ -42,7 +40,5 @@ public class HomeActivity extends AppCompatActivity {
         tvUsername.setText(USERNAME + username);
         tvEmail.setText(EMAIL + email);
         tvContactNumber.setText(CONTACT_NUMBER+ contactNumber);
-
     }
-
 }
