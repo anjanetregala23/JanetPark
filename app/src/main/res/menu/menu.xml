@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.HomePageActivity">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mapsActivity"
+            android:icon="@drawable/ic_place"
+            android:title="Maps"
+            />
+        <item
+            android:id="@+id/aboutMenu"
+            android:icon="@drawable/ic_place"
+            android:title="@string/about_fragment"
+            />
+        <item
+            android:id="@+id/settingsMenu"
+            android:icon="@drawable/ic_settings_black_48dp"
+            android:title="@string/settings_fragment" />
+
+    </group>
+
+    <item android:title="@string/nav_sub_menu">
+        <menu>
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="@string/nav_sub_menu_item01" />
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="@string/nav_sub_menu_item02" />
+        </menu>
+    </item>
+
+</menu>

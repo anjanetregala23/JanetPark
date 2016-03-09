@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Instruction View -->
+    <color name="colorBgSteps">#038DAA</color>
+    <color name="colorVtInstruction">#FFFFFF</color>
+
+    <!-- Login View -->
+    <color name="colorBtnTxtLogin">#FFFFFF</color>
+    <color name="colorInputTxt">#FFFFFF</color>
+    <color name="loginButton">#0DB4D8</color>
+    <color name="signupButton">#FF634D</color>
+    <color name="etBgTint">#9DD3DF</color>
+    
+    <!-- Main Application View -->
+    <color name="colorBgBottom">#065161</color>
+    <color name="colorBgSearch">#038DAA</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#9DD3DF</color>
+    <color name="colorBackground">#03CEE7</color>
+</resources>
