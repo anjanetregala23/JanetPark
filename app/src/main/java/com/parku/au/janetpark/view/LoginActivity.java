@@ -27,6 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private ImageView ivInstruction;
 
     private String strUsername, strPassword, encryptedPassword;
+    public  final static String PAR_OBJECT_KEY = "com.parku.au.janetpark.view.LoginActivity.User";
 
     private RetroClient retroClient;
     private EncryptPassword encryptPassword;
@@ -109,12 +110,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     //passing the class object using serializable to the HomeActivity
                     Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                     Bundle bundle = new Bundle();
-                    bundle.putSerializable("userDetails",user);
+                    bundle.putParcelable(PAR_OBJECT_KEY, user);
                     intent.putExtras(bundle);
                     startActivity(intent);
-
-
-
 
 
                 } else {

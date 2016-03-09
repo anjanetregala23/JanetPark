@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.parku.au.janetpark.R;
 import com.parku.au.janetpark.network.model.User;
+//import com.parku.au.janetpark.network.model.User;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -31,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
 
     public void showUserData(){
         //receiving the class object from the LoginActivity
-        user = (User) getIntent().getSerializableExtra("userDetails");
+       user =  getIntent().getParcelableExtra(LoginActivity.PAR_OBJECT_KEY);
 
         username = user.getUsername();
         email = user.getEmail();
