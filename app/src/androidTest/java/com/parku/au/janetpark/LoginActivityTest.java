@@ -4,8 +4,8 @@ import android.test.ActivityInstrumentationTestCase2;
 
 import com.robotium.solo.Solo;
 
-import parku.com.au.parku.view.HomeActivity;
-import parku.com.au.parku.view.LoginActivity;
+import com.parku.au.janetpark.view.HomeActivity;
+import com.parku.au.janetpark.view.LoginActivity;
 
 
 /**
